@@ -1,0 +1,23 @@
+# This is a comprehensive requirements.txt file for all labs to ensure that one installation covers everything.
+requests
+jsonref
+python-dotenv
+pandas
+matplotlib
+redis
+msal
+openai
+openai[realtime]
+azure-cli
+azure-identity
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-instrumentation-openai-v2
+azure-monitor-opentelemetry
+azure-monitor-ingestion
+azure-ai-projects
+azure-ai-agents
+azure-ai-inference[prompts]
+azure-search-documents
+azure-functions
+azure-mgmt-apimanagement

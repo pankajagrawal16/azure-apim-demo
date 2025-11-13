@@ -1,0 +1,25 @@
+<policies>
+    <inbound>
+        <base />
+        <validate-azure-ad-token tenant-id="{tenant-id}">
+            <client-application-ids>
+                <application-id>{client-application-id}</application-id>
+            </client-application-ids>
+            <required-claims>
+                <claim name="roles" match="any">
+                    <value>{api-type}</value>
+                </claim>
+            </required-claims>
+        </validate-azure-ad-token>
+        <set-backend-service backend-id="{backend-id}" />
+    </inbound>
+    <backend>
+        <base />
+    </backend>
+    <outbound>
+        <base />
+    </outbound>
+    <on-error>
+        <base />
+    </on-error>
+</policies>
