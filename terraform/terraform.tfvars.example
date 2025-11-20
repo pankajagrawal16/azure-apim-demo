@@ -1,0 +1,19 @@
+# Terraform variable definitions
+# Copy this file to terraform.tfvars and fill in the values
+
+# location = "swedencentral"
+# resource_group_name = "demo-passthrough-access-control"
+# apim_sku = "Standardv2"
+# passthrough_backend_url = "https://webhook.site/your-webhook-id"
+# passthrough_api_type = "ServiceNow"
+# auth_header_name = "X-Api-Key"
+# auth_key = "your-secret-key"
+# tenant_id = "your-tenant-id"
+# client_id = "your-client-id"
+
+# apim_subscriptions_config = [
+#   {
+#     name        = "subscription1"
+#     displayName = "Subscription 1"
+#   }
+# ]
